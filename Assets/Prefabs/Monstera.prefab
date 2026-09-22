@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5504620137703273770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.87227
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.05955
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -400877015281742558, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9876538
+      objectReference: {fileID: 0}
+    - target: {fileID: -400877015281742558, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.070831925
+      objectReference: {fileID: 0}
+    - target: {fileID: -400877015281742558, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.13936678
+      objectReference: {fileID: 0}
+    - target: {fileID: -400877015281742558, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.009995017
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_Name
+      value: Monstera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2145048614674156579}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8671417531663352222}
+  m_SourcePrefab: {fileID: 100100000, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+--- !u!1 &4658198694775933051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+  m_PrefabInstance: {fileID: 5504620137703273770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &-2145048614674156579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658198694775933051}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.91083646, z: 1}
+  m_Center: {x: 0, y: 0.536672, z: 0}
+--- !u!114 &8671417531663352222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658198694775933051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb6dea171bcdc44081a4da35db2646d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlantObject
+  plantName: Monstera
