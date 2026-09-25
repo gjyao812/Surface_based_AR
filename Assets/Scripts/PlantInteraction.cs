@@ -1,11 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TMPro;
 
 public class PlantInteraction : MonoBehaviour
 {
     public Camera arCamera;
-    public GameObject plantNameText;
 
     public float rotationSpeed = 0.2f;
     public float scaleSpeed = 0.005f;
@@ -23,7 +21,6 @@ public class PlantInteraction : MonoBehaviour
         var primaryTouch = Touchscreen.current.primaryTouch;
         var secondaryTouch = Touchscreen.current.touches[1];
 
-
         if (primaryTouch.press.wasPressedThisFrame)
         {
             Vector2 touchPosition =
@@ -34,28 +31,14 @@ public class PlantInteraction : MonoBehaviour
 
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                PlantObject plant =
-                    hit.collider.GetComponentInParent<PlantObject>();
+                selectedPlant = hit.collider.transform.root.gameObject;
 
-                if (plant != null)
-                {
-                    selectedPlant = plant.gameObject;
-
-                    plantNameText.SetActive(true);
-
-                    TMP_Text text =
-                        plantNameText.GetComponent<TMP_Text>();
-
-                    text.text = plant.plantName;
-
-                    lastTouchPosition = touchPosition;
-                }
+                lastTouchPosition = touchPosition;
             }
         }
 
         if (selectedPlant == null)
             return;
-
 
         if (primaryTouch.press.isPressed &&
             secondaryTouch.press.isPressed)
@@ -101,12 +84,10 @@ public class PlantInteraction : MonoBehaviour
 
             return;
         }
-
         else
         {
             lastTouchDistance = 0;
         }
-
 
         if (primaryTouch.press.isPressed)
         {

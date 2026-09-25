@@ -9,6 +9,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.87227
       objectReference: {fileID: 0}
@@ -75,9 +87,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
       insertIndex: -1
       addedObject: {fileID: -2145048614674156579}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8671417531663352222}
   m_SourcePrefab: {fileID: 100100000, guid: 840386dac7fac8c4b900619fa3a92a05, type: 3}
 --- !u!1 &4658198694775933051 stripped
 GameObject:
@@ -105,16 +114,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.91083646, z: 1}
   m_Center: {x: 0, y: 0.536672, z: 0}
---- !u!114 &8671417531663352222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4658198694775933051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eb6dea171bcdc44081a4da35db2646d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlantObject
-  plantName: Monstera
