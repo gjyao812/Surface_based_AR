@@ -1,17 +1,17 @@
 # Surface Based AR
 
-基于 Unity AR Foundation 的平面检测 AR 项目。检测水平平面后，可点击平面放置盆栽，并通过触控旋转和缩放模型。
+A plane detection AR project built with Unity AR Foundation. Users can detect a horizontal surface, place a potted plant, and control the model with touch gestures.
 
-## 功能
+## Features
 
-- 检测水平平面并显示平面可视化
-- 点击已检测平面放置一个 Monstera 盆栽
-- 放置后隐藏平面并停止继续检测
-- 单指拖动旋转已选中的模型
-- 双指捏合缩放模型
-- 支持 Android ARCore 和 iOS ARKit
+- Detects horizontal surfaces and displays plane visualization
+- Places one Monstera plant on a detected plane
+- Hides detected planes and stops plane detection after placement
+- Rotates the selected model with a one finger drag
+- Scales the model with a two finger pinch
+- Supports Android with ARCore and iOS with ARKit
 
-## 环境
+## Requirements
 
 - Unity `6000.3.24f1`
 - AR Foundation `6.3.5`
@@ -19,20 +19,20 @@
 - ARKit XR Plugin `6.3.5`
 - Input System `1.20.0`
 
-## 运行
+## Run the Project
 
-1. 使用 Unity Hub 打开项目。
-2. 打开 `Assets/MainScene.unity`。
-3. 在支持 ARCore 或 ARKit 的真机上构建并运行。
-4. 缓慢移动设备以检测地面或桌面。
-5. 点击检测到的平面放置盆栽。
-6. 点击盆栽后，单指拖动旋转，双指捏合缩放。
+1. Open the project in Unity Hub.
+2. Open `Assets/MainScene.unity`.
+3. Build and run on an ARCore or ARKit compatible device.
+4. Move the device slowly to detect a floor or table.
+5. Tap a detected plane to place the plant.
+6. Tap the plant, drag with one finger to rotate it, or pinch with two fingers to scale it.
 
-## 主要文件
+## Main Files
 
-- `Assets/MainScene.unity`：AR 主场景
-- `Assets/Prefabs/Monstera.prefab`：盆栽预制体
-- `Assets/Prefabs/AR Default Plane.prefab`：平面可视化预制体
-- `Assets/Scripts/TapToPlace.cs`：射线检测、模型放置和隐藏平面
-- `Assets/Scripts/PlantInteraction.cs`：模型选择、旋转和缩放
+- `Assets/MainScene.unity`: Main AR scene
+- `Assets/Prefabs/Monstera.prefab`: Plant prefab
+- `Assets/Prefabs/AR Default Plane.prefab`: Plane visualization prefab
+- `Assets/Scripts/TapToPlace.cs`: Raycasting, object placement, and plane hiding
+- `Assets/Scripts/PlantInteraction.cs`: Object selection, rotation, and scaling
 
