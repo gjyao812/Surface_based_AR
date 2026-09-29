@@ -21,12 +21,12 @@ A plane detection AR project built with Unity AR Foundation. Users can detect a 
 
 ## Run the Project
 
-1. Open the project in Unity Hub.
-2. Open `Assets/MainScene.unity`.
-3. Build and run on an ARCore or ARKit compatible device.
-4. Move the device slowly to detect a floor or table.
-5. Tap a detected plane to place the plant.
-6. Tap the plant, drag with one finger to rotate it, or pinch with two fingers to scale it.
+1. Open the project in Unity Hub
+2. Open `Assets/MainScene.unity`
+3. Build and run on an ARCore or ARKit compatible device
+4. Move the device slowly to detect a floor or table
+5. Tap a detected plane to place the plant
+6. Tap the plant, drag with one finger to rotate it, or pinch with two fingers to scale it
 
 ## Main Files
 
